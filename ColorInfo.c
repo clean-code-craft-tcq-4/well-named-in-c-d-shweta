@@ -33,13 +33,13 @@ ColorPair GetColorFromPairNumber(int pairNumber) {
 
 
 void WiringColorManual(){
-  printf("Number"+""+"Major Color"+""+"Minor Color");
+  printf("%s %s %s","Number","","Major Color","","Minor Color");
   for(int i= 1 ; i<26 ; i++)
   {
       ColorPair GetColorFromPairNumber(i);
-      printf(i, "%s %s",
+      printf("%d %s %s",i,
         colorPair.majorColor,
-        colorPair.minorColor;
+        colorPair.minorColor);
   }
 }
       
