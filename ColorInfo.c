@@ -14,6 +14,8 @@ extern const int MAX_COLORPAIR_NAME_CHARS;
 int numberOfMinorColors =
     sizeof(MinorColorNames) / sizeof(MinorColorNames[0]);
 
+void WiringColorManual(void);
+
 void ColorPairToString(const ColorPair* colorPair, char* buffer) {
     sprintf(buffer, "%s %s",
         MajorColorNames[colorPair->majorColor],
@@ -21,7 +23,7 @@ void ColorPairToString(const ColorPair* colorPair, char* buffer) {
     
 }
 
-void WiringColorManual(void);
+
 
 ColorPair GetColorFromPairNumber(int pairNumber) {
     ColorPair colorPair;
