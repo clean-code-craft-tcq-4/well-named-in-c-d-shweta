@@ -38,7 +38,7 @@ ColorPair GetColorFromPairNumber(int pairNumber) {
 
 void WiringColorManual(int i){
   printf("%s %s %s","Number","","Major Color","","Minor Color");
-  for(int i= 1 ; i<26 ; i++)
+  for(i= 1 ; i<26 ; i++)
   {
       ColorPair GetColorFromPairNumber(i);
       printf("%d %s %s",i,
