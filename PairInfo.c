@@ -2,7 +2,7 @@
 #include <assert.h>
 #include "main.h"
 
-extern int numberOfMajorColors;
+extern int numberOfMinorColors;
 
 int GetPairNumberFromColor(const ColorPair* colorPair) {
     return colorPair->majorColor * numberOfMinorColors +
