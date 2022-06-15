@@ -18,6 +18,7 @@ void ColorPairToString(const ColorPair* colorPair, char* buffer) {
     sprintf(buffer, "%s %s",
         MajorColorNames[colorPair->majorColor],
         MinorColorNames[colorPair->minorColor]);
+    
 }
 
 ColorPair GetColorFromPairNumber(int pairNumber) {
@@ -29,3 +30,16 @@ ColorPair GetColorFromPairNumber(int pairNumber) {
         (enum MinorColor)(zeroBasedPairNumber % numberOfMinorColors);
     return colorPair;
 }
+
+
+void WiringColorManual(){
+  printf("Number"+""+"Major Color"+""+"Minor Color");
+  for(int i= 1 ; i<26 ; i++)
+  {
+      ColorPair GetColorFromPairNumber(i);
+      printf(i, "%s %s",
+        colorPair.majorColor,
+        colorPair.minorColor;
+  }
+}
+      
