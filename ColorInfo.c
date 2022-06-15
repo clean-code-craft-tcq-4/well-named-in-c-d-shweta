@@ -45,9 +45,8 @@ void WiringColorManual(){
       info=GetColorFromPairNumber(i);
       char bufferValue[MAX_COLORPAIR_NAME_CHARS];
       ColorPairToString(&info,bufferValue);
-      printf("%d %d %d",i,
-        info.majorColor,
-        info.minorColor);
+      printf("%d %s ",i,
+        bufferValue);
   }
 }
       
