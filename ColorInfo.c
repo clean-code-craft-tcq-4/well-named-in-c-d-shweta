@@ -39,7 +39,7 @@ void WiringColorManual(){
     char* bufferValue;
    // printf("%s %s %s","Number","","Major Color","","Minor Color");
   ColorPair info;
-  ColorPairToString(info,bufferValue);
+  ColorPairToString(&info,bufferValue);
   for(i= 1 ; i<26 ; i++)
   {
       info=GetColorFromPairNumber(i);
