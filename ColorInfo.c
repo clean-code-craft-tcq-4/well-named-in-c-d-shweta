@@ -38,8 +38,8 @@ ColorPair GetColorFromPairNumber(int pairNumber) {
 
 void WiringColorManual(){
     int i;
-    printf("%s %s %s","Number","","Major Color","","Minor Color");
-   ColorPair info;
+   // printf("%s %s %s","Number","","Major Color","","Minor Color");
+  ColorPair info;
     
   for(i= 1 ; i<26 ; i++)
   {
