@@ -36,7 +36,7 @@ ColorPair GetColorFromPairNumber(int pairNumber) {
 
 void WiringColorManual(){
     int i;
-    char* bufferValue;
+    char* bufferValue[];
    // printf("%s %s %s","Number","","Major Color","","Minor Color");
   ColorPair info;
   ColorPairToString(&info,bufferValue);
