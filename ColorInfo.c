@@ -23,8 +23,6 @@ void ColorPairToString(const ColorPair* colorPair, char* buffer) {
     
 }
 
-
-
 ColorPair GetColorFromPairNumber(int pairNumber) {
     ColorPair colorPair;
     int zeroBasedPairNumber = pairNumber - 1;
@@ -38,9 +36,10 @@ ColorPair GetColorFromPairNumber(int pairNumber) {
 
 void WiringColorManual(){
     int i;
+    char* bufferValue;
    // printf("%s %s %s","Number","","Major Color","","Minor Color");
   ColorPair info;
-    
+  ColorPairToString(info,bufferValue);
   for(i= 1 ; i<26 ; i++)
   {
       info=GetColorFromPairNumber(i);
