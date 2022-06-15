@@ -38,8 +38,8 @@ void WiringColorManual(){
   {
       ColorPair GetColorFromPairNumber(i);
       printf("%d %s %s",i,
-        colorPair.majorColor,
-        colorPair.minorColor);
+        ColorPair.majorColor,
+        ColorPair.minorColor);
   }
 }
       
